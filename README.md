@@ -29,11 +29,12 @@
 git clone [https://github.com/你的用户名/it-is-human.git](https://github.com/你的用户名/it-is-human.git)
 cd it-is-human
 
-2. 环境准备
+### 2. 环境准备
 安装必要的依赖库：
+```bash
 pip install flask openai xmltodict
 
-3. 配置文件
+### 3. 配置文件
 在项目根目录创建 **config.json**，并填入你的关键信息：
 {
     "WECHAT_TOKEN": "你在微信后台自定义的Token",
@@ -41,7 +42,7 @@ pip install flask openai xmltodict
 }
 注：项目已配置 .gitignore，此文件不会被上传至 GitHub。
 
-4. 运行服务
+### 4. 运行服务
 python server.py
 
 🎸 开发者寄语
