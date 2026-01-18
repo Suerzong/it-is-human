@@ -24,7 +24,7 @@
 
 ## 🚀 快速开始
 
-### 1. 克隆仓库
+1. 克隆仓库
 ```bash
 git clone [https://github.com/你的用户名/it-is-human.git](https://github.com/你的用户名/it-is-human.git)
 cd it-is-human
@@ -43,6 +43,7 @@ pip install flask openai xmltodict
 注：项目已配置 .gitignore，此文件不会被上传至 GitHub。
 
 ### 4. 运行服务
+```bash
 python server.py
 
 🎸 开发者寄语
